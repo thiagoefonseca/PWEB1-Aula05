@@ -1,0 +1,44 @@
+/*Para selecionar a página inteira, selecionamos o seletor *  */
+*{
+    background-image: url("../img/the_krusty_krab_in_yeti_krabs.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+}
+
+/* adicionando cor no seletor p*/
+p{
+    color: #ff0000;
+}
+
+/* Para identificar o class, digita-se o ponto e o nome da classe. Exemplo: .centro */
+.centro{
+    color: black;
+    text-align: center;
+}
+
+/* Para identificar o id, digita-se o # e o nome da classe. Exemplo: #unico */
+#unico{
+    color: navy;
+    text-align: center;
+}
+
+.prof{
+    color: magenta;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Open Sans, Helvetica, sans-serif;
+    font: bold italic 40px 'Open Sans';
+}
+
+.lab{
+    color: hotpink;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Open Sans, Helvetica, sans-serif;
+    font: italic 60px 'Open Sans';
+    text-align: center;
+}
